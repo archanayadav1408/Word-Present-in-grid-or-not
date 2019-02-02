@@ -31,6 +31,7 @@ bool isPresent(vector<string >grid,string search,int i,int j,int m,int n,int pos
         return false; 
      
 	     if (grid[i][j] == search[pos]) { 
+		     grid[i][j]="#";
      bool res = isPresent(grid, search, i - 1, j, m, n, pos + 1) || isPresent(grid,search, i + 1, j, m, n, pos + 1)||isPresent(grid, search, i, j - 1, m, n, pos + 1) || isPresent(grid, search, i, j + 1, m, n, pos + 1); 
   
         return res;
