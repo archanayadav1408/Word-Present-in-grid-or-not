@@ -4,7 +4,7 @@ The 4 directions are, Horizontally Left and Right, Vertically Up and Down.
 
 Input Format: A grid and a word will be given as input.
 
-Output format : print yes if given word is present in the grid if not print no.
+Output Format : print yes if given word is present in the grid if not print no.
 
 Example 1
 
